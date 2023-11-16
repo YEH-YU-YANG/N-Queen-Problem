@@ -6,7 +6,7 @@ Write programs in `C++` to solve the n-queen problem.
 3. Use `Genetic Algorithm (GA)`
 
 `report.pdf` is my research report. Write in Mandarin. <br>
-`N-Queen Problem Record.xlsx` is research recording for 8-Queens、50 Queens solved with IDS、HC、GA algorithm.
+`N-Queen Problem Record.xlsx` is research recording of 8-Queens、50 Queens solved with IDS、HC、GA algorithm.
 
 ## IDS
 
