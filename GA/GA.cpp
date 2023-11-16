@@ -1,3 +1,14 @@
+/*
+
+[Compile .cpp]
+g++ GA.cpp -o GA.exe
+
+[Execute .exe with argument]
+GA.exe 8   八皇后
+GA.exe 50  五十皇后
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
