@@ -1,7 +1,16 @@
+/*
+
+[Compile .cpp]
+g++ HC.cpp -o HC.exe
+
+[Execute .exe with argument]
+HC.exe 8   八皇后
+HC.exe 50  五十皇后
+
+*/
+
 #include<bits/stdc++.h>
 using namespace std;
-
-
 class HillClimbing{
 private:
     
@@ -85,12 +94,12 @@ int main(int argc, char* argv[]){
     double START,END; START = clock();
     srand(time(0));
     
-    
+    //////// file name ////////
     string queen_nums = argv[1];
     string output_file = "HC_" + queen_nums + "_Queens.txt";
-
     ofstream fout(output_file);
     int N=stoi(queen_nums);
+    ///////////////////////////
 
     int max_iterations = 1e4;
     HillClimbing g(N,max_iterations);

@@ -1,11 +1,18 @@
+/*
+
+[Compile .cpp]
+g++ IDS.cpp -o IDS.exe
+
+[Execute .exe with argument]
+IDS.exe 8   八皇后
+IDS.exe 50  五十皇后
+
+*/
 #include<bits/stdc++.h> 
 using namespace std; 
 using namespace std::chrono;
 
 #define NOT_FOUND 999
-
-
-
 class Graph { 
 private:
 	int N; // No. of row,col 
@@ -121,14 +128,15 @@ int main(int argc, char* argv[]) {
 
     double START,END; START = clock();
 
+    //////// file name ////////
     string queen_nums = argv[1];
     string output_file = "IDS_" + queen_nums + "_Queens.txt";
     ofstream fout(output_file);
+    int board_size = std::stoi(queen_nums);
+	int max_depth = std::stoi(queen_nums); 
+	///////////////////////////
     
-    
-    int board_size = std::stod(queen_nums);
-	int max_depth = std::stod(queen_nums); 
-	Graph g(board_size,max_depth); 
+    Graph g(board_size,max_depth); 
 
 	
     
