@@ -69,7 +69,9 @@ Outputfile: `GA_50_Queens.txt`
 
 Execution
 ```
-.\30times.py
+.\30times.py 8   -> 8  Queen
+.\30times.py 50  -> 50 Queen
+.\30times.py N   -> N  Queen
 ```
 This aims to generate output automatically. <br>
 
