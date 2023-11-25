@@ -69,13 +69,10 @@ Outputfile: `GA_50_Queens.txt`
 
 Execution
 ```
-.\30times.py 8   -> 8  Queen
-.\30times.py 50  -> 50 Queen
 .\30times.py N   -> N  Queen
 ```
 This aims to generate output automatically. <br>
 
 It will solve N-Queens problem with HC or GA algorithm and generate output 30 times.<br>
 ( Or you can modify parameter of output times in 30times.py ) <br>
-
 Outputs will be generate in `Result.xlsx` automatically.
